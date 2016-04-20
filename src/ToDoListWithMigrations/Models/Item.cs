@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ToDoListWithMigrations.Models
 {
+    [Table("Items")]
     public class Item
     {
         [Key]

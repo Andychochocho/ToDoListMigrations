@@ -8,9 +8,10 @@ using ToDoListWithMigrations.Models;
 namespace ToDoListWithMigrations.Migrations
 {
     [DbContext(typeof(ToDoDbContext))]
-    partial class ToDoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20160420160539_MakeTableNamesPlural")]
+    partial class MakeTableNamesPlural
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.0-rc1-16348")
