@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C13B9C68-BEC9-462B-8929-D3495A88A5A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C69B102-5FC0-4173-9371-410262F5B463}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoListWithMigrations", "src\ToDoListWithMigrations\ToDoListWithMigrations.xproj", "{4CDED737-3BE0-4120-B6A2-19099922996F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDED737-3BE0-4120-B6A2-19099922996F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDED737-3BE0-4120-B6A2-19099922996F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDED737-3BE0-4120-B6A2-19099922996F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDED737-3BE0-4120-B6A2-19099922996F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CDED737-3BE0-4120-B6A2-19099922996F} = {C13B9C68-BEC9-462B-8929-D3495A88A5A7}
+	EndGlobalSection
+EndGlobal
